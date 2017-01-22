@@ -1,0 +1,22 @@
+body {
+  background-color: #ccc;
+}
+.wrapper {
+  background-color: #efefef;
+  width: 90%;
+  height: 850px;
+  box-shadow: 5px 5px 10px #727272;
+  margin: 10px auto;
+}
+.wrapper .top_nav {
+  background-color: #6ad86e;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+.wrapper .box_header {
+  background-color: #6b89cc;
+  width: 100%;
+  height: 175px;
+}
