@@ -19,17 +19,14 @@
   "devDependencies": {
     "browser-sync": "^2.18.1",
     "del": "^2.2.2",
-<<<<<<< HEAD
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^2.0.13",
     "gulp-cssnano": "^2.1.2",
-=======
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^2.0.13",
->>>>>>> fd1d8622f83c8b1fb06ac609c00b9a5603e2d25c
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.1.1",
     "gulp-less": "^3.3.0",
@@ -41,10 +38,7 @@
     "gulp-useref": "^3.1.2",
     "gulp-watch": "^4.3.10",
     "imagemin-pngquant": "^5.0.0",
-<<<<<<< HEAD
     "rimraf": "^2.5.4",
-=======
->>>>>>> fd1d8622f83c8b1fb06ac609c00b9a5603e2d25c
     "wiredep": "^4.0.0"
   }
 }

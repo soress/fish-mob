@@ -1,0 +1,17 @@
+.box_header {
+  background-color: #6b89cc;
+  width: 100%;
+  height: 175px;
+}
+.top_nav {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+.top_nav {
+  background-color: #ccc;
+}
+.box_header {
+  background-color: #6b89cc;
+}

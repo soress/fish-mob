@@ -6,10 +6,7 @@ var gulp = require('gulp'),
 	watch = require('gulp-watch'),
 	uglify = require('gulp-uglify'),
 	useref = require('gulp-useref'),
-<<<<<<< HEAD
-=======
 	clean = require('gulp-clean'),
->>>>>>> fd1d8622f83c8b1fb06ac609c00b9a5603e2d25c
 	minifyCss = require('gulp-clean-css'),
 	rename = require('gulp-rename'),
 	browserSync = require('browser-sync'),
@@ -18,15 +15,11 @@ var gulp = require('gulp'),
 	gulpif = require('gulp-if'),
 	sftp = require('gulp-sftp'),	
 	imagemin = require('gulp-imagemin'),
-	pngquant = require('imagemin-pngquant'),	
-<<<<<<< HEAD
+	pngquant = require('imagemin-pngquant'),
 	del = require('del'),
 	clean = require('gulp-clean'),
 	rimraf = require('rimraf'),
 	cssnano = require('gulp-cssnano'),		
-=======
-	del = require('del'),		
->>>>>>> fd1d8622f83c8b1fb06ac609c00b9a5603e2d25c
 	reload = browserSync.reload;
 
 	// clean
@@ -50,11 +43,11 @@ var gulp = require('gulp'),
 
 	// less
 	gulp.task('less', function () {
-  	 gulp.src('./app/less/layout.less')
-    .pipe(less().on('error', less.logError))
+  	 gulp.src('./app/less/*.less')
+    .pipe(less())
     .pipe(prefixer('last 15 version', '> 1%', 'ie 8'), {cascade: true})
     .pipe(reload({stream: true}))    
-    .pipe(gulp.dest('./app/css'));
+    .pipe(gulp.dest('app/css'));
 });
 	// bower
 
