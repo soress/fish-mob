@@ -1,5 +1,6 @@
 {
   "name": "fish-mob",
+<<<<<<< HEAD
   "homepage": "https://github.com/soress/fish-mob",
   "authors": [
     "soress <gomonst@mail.ru>"
@@ -8,6 +9,10 @@
   "main": "",
   "license": "MIT",
   "dependencies": {
+=======
+  "version": "0.01.0",
+    "dependencies": {
+>>>>>>> fd1d8622f83c8b1fb06ac609c00b9a5603e2d25c
     "jquery": "^3.1.1",
     "font-awesome": "fontawesome#^4.7.0",
     "wow": "wowjs#^1.1.2",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 .idea
 *.log
@@ -5,3 +6,14 @@ node_modules/
 *.ai
 *.pdf
 libs/
+=======
+.idea
+.DS_store
+Thumbs.db
+node_modules/
+*.log
+*.psd
+*.pdf
+libs/
+desktop.ini
+>>>>>>> fd1d8622f83c8b1fb06ac609c00b9a5603e2d25c
