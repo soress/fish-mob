@@ -4,5 +4,4 @@ node_modules/
 *.psd
 *.ai
 *.pdf
-.bowerrc
 libs/
